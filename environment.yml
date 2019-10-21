@@ -1,0 +1,23 @@
+name: pm21
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - jupyter
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - pymc3
+  - seaborn
+  - imageio
+  - imageio-ffmpeg
+  - scikit-image
+  - scikit-learn
+  - graphviz
+  - nose
+  - pip
+  - pip:
+    - adskalman
+    - dabest
+    - showast
