@@ -11,7 +11,7 @@ These are Jupyter notebooks for PM-21 (Python: Der Alleskleber), Winter Semester
 
 ```
 conda env create -f environment.yml
-source activate intro-environment
+source activate pm21
 jupyter notebook
 ```
 
