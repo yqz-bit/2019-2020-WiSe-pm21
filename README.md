@@ -15,6 +15,10 @@ source activate pm21
 jupyter notebook
 ```
 
+## This course on Ilias
+
+https://ilias.uni-freiburg.de/goto.php?target=crs_1383552&client_id=unifreiburg
+
 ## Some useful Python data science cheat sheets
 
 - https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
