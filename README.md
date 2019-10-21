@@ -3,9 +3,9 @@
 These are Jupyter notebooks for PM-21 (Python: Der Alleskleber), Winter Semester
 2019-2020, Faculty of Biology, University of Freiburg.
 
-## View at https://mybinder.org/v2/gh/astraw/2019-2020-WiSe-pm31
+## View at https://mybinder.org/v2/gh/astraw/2019-2020-WiSe-pm21/master
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astraw/2019-2020-WiSe-pm31/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/astraw/2019-2020-WiSe-pm21/master)
 
 ## Run locally with anaconda
 

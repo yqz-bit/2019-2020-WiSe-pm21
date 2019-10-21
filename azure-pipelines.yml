@@ -22,5 +22,16 @@ jobs:
   - script: |
       call activate pm21
       python -c "import sys; print(sys.version)"
+      python -c "import numpy"
+      python -c "import matplotlib"
+      python -c "import pandas"
+      python -c "import scipy"
       python -c "import pymc3"
-    displayName: make
+      python -c "import seaborn"
+      python -c "import imageio"
+      python -c "import sklearn"
+      python -c "import skimage"
+      python -c "import adskalman"
+      python -c "import dabest"
+      python -c "import showast"
+    displayName: test Python version and imports
