@@ -33,5 +33,4 @@ jobs:
       python -c "import skimage"
       python -c "import adskalman"
       python -c "import dabest"
-      python -c "import showast"
     displayName: test Python version and imports
