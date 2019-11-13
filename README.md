@@ -23,3 +23,22 @@ https://ilias.uni-freiburg.de/goto.php?target=crs_1383552&client_id=unifreiburg
 
 - https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
 - http://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf
+
+## In case matplotlib in Windows shows DLL errors:
+
+When importing matplotlib, if you are getting an error like
+`ImportError: DLL load failed: Das angegebene Modul wurde nicht gefunden` or
+`ImportError: DLL load failed: The specified module could not be found`, do:
+
+1) Open a Terminal in your `pm21` Anaconda virtual environment.
+2) Inside the terminal, type this line-by-line:
+
+```
+pip uninstall pillow
+pip uninstall matplotlib
+conda uninstall matplotlib
+conda install matplotlib
+```
+
+See [this](https://github.com/matplotlib/matplotlib/issues/14691#issuecomment-508552825)
+for related information.
